@@ -1,0 +1,48 @@
+@import "zmienne";
+
+@import "mixin";
+
+body {
+	
+	@include mainFont;
+}
+table#table {
+	
+	@include tableStyle;
+}
+#table th {
+	
+	@include tableThStyle;
+}
+
+#table td {
+	
+	@include tableTdStyle;
+}
+
+#table tr.header {
+	
+	@include tableTrHeaderStyle;
+}
+
+#table .footer {
+	
+	@include tableTrFooterStyle;
+}
+
+#table caption
+{
+	
+	@include tableCaptionStyle;
+}
+
+
+img {
+	@include imgStyle;
+}
+
+img:hover {
+	
+	@include imgHoverStyle;
+}
+
